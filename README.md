@@ -1,13 +1,24 @@
-# Sample Hardhat Project
+NFT Minting dApp – Decentralized NFT Creation on Ethereum
+🔹 Project Overview
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project is a decentralized NFT minting platform that enables users to create and store unique digital assets on the Ethereum blockchain. Utilizing smart contracts and IPFS, users can securely mint NFTs with immutable metadata, ensuring authenticity and permanence.
+🔹 Key Features
 
-Try running some of the following tasks:
+✅ NFT Minting – Users can create unique NFTs with metadata stored on IPFS.
+✅ Ethereum-Based – Built using ERC-721 for secure and verifiable ownership.
+✅ IPFS Integration – Decentralized storage for NFT images and metadata.
+✅ MetaMask & Web3 Support – Seamless blockchain interaction for minting.
+✅ Hardhat for Development – Reliable testing and deployment environment.
+🔹 Technologies Used
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+    Solidity & Hardhat – Smart contract development and deployment.
+    OpenZeppelin ERC-721 – Secure NFT standard implementation.
+    Pinata IPFS – Permanent storage for NFT metadata.
+    Ethers.js & Web3.js – Blockchain interaction for a seamless minting experience.
+
+🔹 How It Works
+
+1️⃣ Upload NFT Image → Store it on IPFS and retrieve the CID.
+2️⃣ Generate Metadata → Create JSON metadata with an IPFS link to the image.
+3️⃣ Mint NFT → Call the smart contract to create a unique ERC-721 token.
+4️⃣ View on OpenSea → The NFT is visible on OpenSea testnet or mainnet.
