@@ -22,3 +22,6 @@ This project is a decentralized NFT minting platform that enables users to creat
 2️⃣ Generate Metadata → Create JSON metadata with an IPFS link to the image.
 3️⃣ Mint NFT → Call the smart contract to create a unique ERC-721 token.
 4️⃣ View on OpenSea → The NFT is visible on OpenSea testnet or mainnet.
+
+![image](https://github.com/user-attachments/assets/cbd6f177-ff2d-4e6b-a51d-e6c7294da6c2)
+
